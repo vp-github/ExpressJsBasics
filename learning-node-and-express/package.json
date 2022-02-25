@@ -1,0 +1,26 @@
+{
+  "name": "learning-node-and-express",
+  "version": "1.0.0",
+  "description": "node and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MdAzhar",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "loadash": "^1.0.0",
+    "mongoose": "^6.2.3",
+    "morgan": "^1.10.0"
+  }
+}
